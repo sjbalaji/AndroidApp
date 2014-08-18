@@ -1,2 +1,4 @@
 References
 ==========
+http://examples.javacodegeeks.com/android/core/ui/alertdialog/android-prompt-user-input-dialog-example
+https://sites.google.com/site/compiletimeerrorcom/android-programming/MessageDelivery.rar?attredirects=0

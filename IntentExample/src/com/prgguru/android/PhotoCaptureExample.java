@@ -22,6 +22,7 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -33,6 +34,7 @@ public class PhotoCaptureExample extends Activity
 	protected TextView _field;
 	protected String _path;
 	protected boolean _taken;
+	protected Button btnNext;
 	
 	protected static final String PHOTO_TAKEN	= "photo_taken";
 		
@@ -46,18 +48,30 @@ public class PhotoCaptureExample extends Activity
         _image = ( ImageView ) findViewById( R.id.image );
         _field = ( TextView ) findViewById( R.id.field );
         _button = ( Button ) findViewById( R.id.button );
-        _button.setOnClickListener( new ButtonClickHandler() );
-        
+        _button.setOnClickListener( new OnClickListener() {
+        	public void onClick( View view ){
+        		Log.i("MakeMachine", "ButtonClickHandler.onClick()" );
+        		startCameraActivity();
+        	}
+        });
+    	btnNext = (Button) findViewById(R.id.button3);
+    	btnNext.setOnClickListener(new OnClickListener() {
+    		public void onClick(View view) {
+    			Intent intObj2 = new Intent(PhotoCaptureExample.this,
+    					EditImage.class);
+    			startActivity(intObj2);
+    		}
+    	});
         _path = Environment.getExternalStorageDirectory() + "/Dev/example.jpg";
     }
     
-    public class ButtonClickHandler implements View.OnClickListener 
-    {
-    	public void onClick( View view ){
-    		Log.i("MakeMachine", "ButtonClickHandler.onClick()" );
-    		startCameraActivity();
-    	}
-    }
+//    public class ButtonClickHandler implements View.OnClickListener 
+//    {
+//    	public void onClick( View view ){
+//    		Log.i("MakeMachine", "ButtonClickHandler.onClick()" );
+//    		startCameraActivity();
+//    	}
+//    }
     
     protected void startCameraActivity()
     {

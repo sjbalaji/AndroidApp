@@ -1,1 +1,2 @@
-include ':app'
+include ':MyFirstApp'
+include ':android-async-http:library:src:main'

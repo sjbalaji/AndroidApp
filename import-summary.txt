@@ -1,0 +1,131 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .travis.yml
+* LICENSE
+* MessageDelivery/
+* MessageDelivery/.classpath
+* MessageDelivery/.project
+* MessageDelivery/.settings/
+* MessageDelivery/.settings/org.eclipse.jdt.core.prefs
+* MessageDelivery/AndroidManifest.xml
+* MessageDelivery/bin/
+* MessageDelivery/bin/AndroidManifest.xml
+* MessageDelivery/bin/MessageDelivery.apk
+* MessageDelivery/bin/SMSApp.apk
+* MessageDelivery/bin/classes.dex
+* MessageDelivery/bin/classes/
+* MessageDelivery/bin/classes/com/
+* MessageDelivery/bin/classes/com/example/
+* MessageDelivery/bin/classes/com/example/smsapp/
+* MessageDelivery/bin/classes/com/example/smsapp/BuildConfig.class
+* MessageDelivery/bin/classes/com/example/smsapp/MainActivity$1.class
+* MessageDelivery/bin/classes/com/example/smsapp/MainActivity$2.class
+* MessageDelivery/bin/classes/com/example/smsapp/MainActivity$3.class
+* MessageDelivery/bin/classes/com/example/smsapp/MainActivity.class
+* MessageDelivery/bin/classes/com/example/smsapp/R$attr.class
+* MessageDelivery/bin/classes/com/example/smsapp/R$drawable.class
+* MessageDelivery/bin/classes/com/example/smsapp/R$id.class
+* MessageDelivery/bin/classes/com/example/smsapp/R$layout.class
+* MessageDelivery/bin/classes/com/example/smsapp/R$menu.class
+* MessageDelivery/bin/classes/com/example/smsapp/R$string.class
+* MessageDelivery/bin/classes/com/example/smsapp/R$style.class
+* MessageDelivery/bin/classes/com/example/smsapp/R.class
+* MessageDelivery/bin/classes/com/example/smsapp/SmsReceiver.class
+* MessageDelivery/bin/dexedLibs/
+* MessageDelivery/bin/dexedLibs/android-support-v4-4ba001aae8482fd33af718e96450252c.jar
+* MessageDelivery/bin/dexedLibs/android-support-v4-52b97acb5fd24badb02c70e91f944362.jar
+* MessageDelivery/bin/jarlist.cache
+* MessageDelivery/bin/res/
+* MessageDelivery/bin/res/crunch/
+* MessageDelivery/bin/res/crunch/drawable-hdpi/
+* MessageDelivery/bin/res/crunch/drawable-hdpi/ic_launcher.png
+* MessageDelivery/bin/res/crunch/drawable-ldpi/
+* MessageDelivery/bin/res/crunch/drawable-ldpi/ic_launcher.png
+* MessageDelivery/bin/res/crunch/drawable-mdpi/
+* MessageDelivery/bin/res/crunch/drawable-mdpi/ic_launcher.png
+* MessageDelivery/bin/res/crunch/drawable-xhdpi/
+* MessageDelivery/bin/res/crunch/drawable-xhdpi/ic_launcher.png
+* MessageDelivery/bin/res/drawable-hdpi/
+* MessageDelivery/bin/res/drawable-hdpi/ic_launcher.png
+* MessageDelivery/bin/res/drawable-ldpi/
+* MessageDelivery/bin/res/drawable-ldpi/ic_launcher.png
+* MessageDelivery/bin/res/drawable-mdpi/
+* MessageDelivery/bin/res/drawable-mdpi/ic_launcher.png
+* MessageDelivery/bin/res/drawable-xhdpi/
+* MessageDelivery/bin/res/drawable-xhdpi/ic_launcher.png
+* MessageDelivery/bin/resources.ap_
+* MessageDelivery/gen/
+* MessageDelivery/gen/com/
+* MessageDelivery/gen/com/example/
+* MessageDelivery/gen/com/example/smsapp/
+* MessageDelivery/gen/com/example/smsapp/BuildConfig.java
+* MessageDelivery/gen/com/example/smsapp/R.java
+* MessageDelivery/ic_launcher-web.png
+* MessageDelivery/libs/
+* MessageDelivery/libs/android-support-v4.jar
+* MessageDelivery/proguard-project.txt
+* MessageDelivery/project.properties
+* MessageDelivery/res/
+* MessageDelivery/res/drawable-hdpi/
+* MessageDelivery/res/drawable-hdpi/ic_launcher.png
+* MessageDelivery/res/drawable-ldpi/
+* MessageDelivery/res/drawable-ldpi/ic_launcher.png
+* MessageDelivery/res/drawable-mdpi/
+* MessageDelivery/res/drawable-mdpi/ic_launcher.png
+* MessageDelivery/res/drawable-xhdpi/
+* MessageDelivery/res/drawable-xhdpi/ic_launcher.png
+* MessageDelivery/res/layout/
+* MessageDelivery/res/layout/activity_main.xml
+* MessageDelivery/res/menu/
+* MessageDelivery/res/menu/activity_main.xml
+* MessageDelivery/res/values-v11/
+* MessageDelivery/res/values-v11/styles.xml
+* MessageDelivery/res/values-v14/
+* MessageDelivery/res/values-v14/styles.xml
+* MessageDelivery/res/values/
+* MessageDelivery/res/values/strings.xml
+* MessageDelivery/res/values/styles.xml
+* MessageDelivery/src/
+* MessageDelivery/src/com/
+* MessageDelivery/src/com/example/
+* MessageDelivery/src/com/example/smsapp/
+* MessageDelivery/src/com/example/smsapp/MainActivity.java
+* MessageDelivery/src/com/example/smsapp/SmsReceiver.java
+* README.md
+* References.txt
+* apks/
+* apks/IntentExample.apk
+* apks/Part4.apk
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
